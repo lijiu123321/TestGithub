@@ -7,7 +7,7 @@ function MainScene:ctor()
     local player = Player.new()
     player:setPosition(300, 300)
     self:addChild(player)
-
+--别人修改东西
     local function click(event)
         local seq = cc.Sequence:create(cc.DelayTime:create(5),cc.CallFunc:create(function()
                 event.target:setTouchEnabled(true)
