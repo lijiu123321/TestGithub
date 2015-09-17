@@ -8,6 +8,7 @@ local Player = class("Player", function()
 end)
 
 function Player:ctor()
+	--添加状态机
 	self:addStateMachine()
 end
 
